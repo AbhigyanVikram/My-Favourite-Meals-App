@@ -10,6 +10,6 @@
 * This project is completely responsive.
 
 
-# Website link
+# Website demo link
 
 https://abhigyanvikram.github.io/My-Favourite-Meals-App/
