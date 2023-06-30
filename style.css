@@ -1,0 +1,128 @@
+
+/* removing the padding and margin from all the elemeents using this wild card */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* setting text and background color for the body */
+body {
+    
+    width: 100%;
+    height: 100%;
+    color:white;
+    background: #a7f43b;  
+}
+
+/* setting wave svg(Scalable Vector Graphics) for whole body  */
+#full-body{
+    width: 100vw;
+    height: 100%;
+    background: #84c359 ;
+}
+
+/* header heading section */
+#heading {
+    margin-top: 100px;
+}
+
+#heading-text{
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* header navigation bar shadow */
+#nav {
+    box-shadow: rgba(244, 244, 248, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    background-color:#49a1e9 ;
+}
+
+#smeal{
+
+    width: 30%;margin: auto;
+    border-radius: 20px;
+}
+#smeal:hover{
+    border: 1px solid white;
+    color:#0d0501 ;
+    font-weight: bolder;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    box-shadow: 0 8px 32px 0 rgba(248, 246, 246, 0.37);
+}
+
+/* header search bar section */
+#search-bar {
+    max-width: 600px;
+}
+#search-bar input {
+    height: 50px;
+    border-radius: 20px;
+}
+
+#btn{
+    height: 50px;width: 20%;font-size: large;font-weight: bold;
+    border: 2px solid #49a;border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    box-shadow: 0 8px 32px 0 rgba(7, 7, 7, 0.37);
+}
+#btn:hover{
+    background-color: #49a;
+    color: white; border: 2px solid white;
+    box-shadow: 0 8px 32px 0 rgba(248, 246, 246, 0.37);
+
+}
+
+
+/* setting glassmorphism for meal card */
+#card{
+    background-color: rgb(18, 18, 18);
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(24px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 20px;
+    border:1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+}
+
+
+/* setting style for meal details container  */
+#meal-details{
+    width: 100%;
+    padding: 20px;
+    border-radius: 20px;
+    border-radius: 20px;
+    border:1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    background:rgba(53, 92, 234, 0.819);
+}
+#meal-header{
+    width: 70%;
+    margin: auto;
+}
+#meal-thumbail img{
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+   
+}
+#details{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-style: italic;
+}
+#meal-instruction{
+    margin: auto;
+    text-align: center;
+}
+
+
+/* favourites offcanvus  */
+#favourites-body{
+    background-color:#212529 ;
+}
+
+
